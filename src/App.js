@@ -1,12 +1,12 @@
+import './App.css'
+import DarkMode from './components/DarkMode'
 
-import './App.css';
-
-function App() {
+function App () {
   return (
-    <div className="App">
-      
+    <div className='App'>
+      <DarkMode />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
